@@ -1,0 +1,20 @@
+<div class="landing-page container">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>&#35;</th>
+				<th>{{ lang.content.article }}</th>
+				<th>{{ lang.content.remark }}</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for article in articles %}
+			<tr>
+				<td>{{ loop.index }}</td>
+				<td><a href = "/{{ article.Category }}/{{ article.Year }}/{{ article.Name }}">{{ article.Name }}</a></td>
+				<td>{{ article.Remark }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>

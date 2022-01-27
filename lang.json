@@ -1,0 +1,27 @@
+{
+	"english": {
+		"frame": {
+			"title": "EggRoll Taiyami",
+			"toggle": "Toggle navigation"
+		},
+		"main": {
+			"title": "Hello World!",
+			"text": "Welcome text goes here"
+		},
+		"about": {
+			"title": "About",
+			"news": "News",
+			"news_text": "News go here",
+			"rules": "Rules",
+			"rules_text": "Rules go here"
+		},
+		"content": {
+			"title": "Content",
+			"article": "Article",
+			"remark": "Remark"
+		},
+		"error": {
+			"title": "Error"
+		}
+	}
+}
